@@ -22,9 +22,10 @@ SAVE_DIR = r'C:\Users\Mark\Desktop'   #r implies raw string text, allows slashes
 EDTIOR_PATH = r'C:\WINDOWS\system32\mspaint.exe'  
 
 HOTKEYS = {
-  1 : (win32con.VK_F3, win32con.MOD_WIN),
-  2 : (win32con.VK_F4, win32con.MOD_WIN)
+	1 : (win32con.VK_F3, win32con.MOD_WIN),
+	2 : (win32con.VK_F4, win32con.MOD_WIN)
 }
+
 
 def crop(image):
 	boxDims = (1348, 0, 1621, 970)
@@ -61,13 +62,9 @@ HOTKEY_ACTIONS = {
   2 : handle_win_F4
 }
 
-#Debug
-#print('Using image editor: ', EDITOR_PATH)
-
-def main():
-
+def startListener():
 	for id, (vk, modifiers) in HOTKEYS.items ():
-		print("Registering id", id, "for key", vk) #Debug
+	#	print("Registering id", id, "for key", vk) #Debug
 		if not user32.RegisterHotKey (None, id, modifiers, vk):
 			print("Unable to register id", id) 
 
@@ -85,5 +82,8 @@ def main():
 	finally:
 		for id in HOTKEYS.keys ():
 			user32.UnregisterHotKey (None, id)
+
+def main():
+	startListener()
 
 main()
