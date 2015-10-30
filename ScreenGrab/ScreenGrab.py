@@ -7,7 +7,7 @@
 
 import os
 import sys
-import time #might not be needed, could add as timestamp feature later
+import time  #might not be needed, could add as timestamp feature later
 import ctypes
 from ctypes import wintypes
 import win32con
