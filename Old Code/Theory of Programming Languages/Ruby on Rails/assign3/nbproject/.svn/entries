@@ -1,0 +1,55 @@
+8
+
+dir
+31
+svn://svn.cs.mtsu.edu/c1007100/svn/c1007112/assign3/nbproject
+svn://svn.cs.mtsu.edu/c1007100/svn/c1007112
+
+
+
+2009-04-22T22:11:02.894352Z
+26
+c1007112
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+75108b3f-2546-42ff-b6f9-81966dd2bc1e
+
+project.properties
+file
+
+
+
+
+2009-04-29T19:00:32.000000Z
+15734e59c26642f8f355eb24f3ec73a8
+2009-03-25T04:43:21.445435Z
+7
+c1007112
+
+project.xml
+file
+
+
+
+
+2009-04-29T19:00:32.000000Z
+c174f1412ad1119aaf6fcf230791cee1
+2009-03-25T04:43:21.445435Z
+7
+c1007112
+
+private
+dir
+

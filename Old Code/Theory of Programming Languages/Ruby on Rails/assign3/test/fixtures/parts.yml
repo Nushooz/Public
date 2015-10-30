@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  pname: MyString
+  color: MyString
+  weight: 1
+  city: MyString
+
+two:
+  pname: MyString
+  color: MyString
+  weight: 1
+  city: MyString

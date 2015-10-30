@@ -1,0 +1,28 @@
+<h1>Listing parts</h1>
+
+<table>
+  <tr>
+    <th>P#</th>
+    <th>Pname</th>
+    <th>Color</th>
+    <th>Weight</th>
+    <th>City</th>
+  </tr>
+
+<% for part in @parts %>
+  <tr>
+    <td><%=h part.id %></td>
+    <td><%=h part.pname %></td>
+    <td><%=h part.color %></td>
+    <td><%=h part.weight %></td>
+    <td><%=h part.city %></td>
+    <td><%= link_to 'Show', part %></td>
+    <td><%= link_to 'Edit', edit_part_path(part) %></td>
+    <td><%= link_to 'Destroy', part, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New part', new_part_path %>

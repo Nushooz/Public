@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Person>
+	<name lang="EN">
+		<last>Blalock</last>
+        <middle>Cody</middle>
+		<first>Brandon</first>
+	</name>
+    <degree>BA</degree>
+    <class>FR</class>
+    <status>Enrolled</status>
+    <phone>615-898-1236</phone>
+</Person>

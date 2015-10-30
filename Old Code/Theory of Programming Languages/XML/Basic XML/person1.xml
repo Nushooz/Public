@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Person>
+	<name lang="EN">
+		<last>Absher</last>
+        <middle>Ray</middle>
+		<first>James</first>
+	</name>
+    <degree>MC</degree>
+    <class>JR</class>
+    <lastatt>6/15/03</lastatt>
+    <status>Dropped</status>
+    <phone>615-898-1234</phone>
+</Person>
+

@@ -1,0 +1,29 @@
+<h1>Listing suppliers</h1>
+
+<table>
+  <tr>
+    <th>S#</th>
+    <th>Sname</th>
+    <th>Status</th>
+    <th>City</th>
+  </tr>
+
+<% for supplier in @suppliers %>
+  <tr>
+    <td><%=h supplier.id %></td>
+    <td><%=h supplier.sname %></td>
+    <td><%=h supplier.status %></td>
+    <td><%=h supplier.city %></td>
+    <td><%= link_to 'Show', supplier %></td>
+    <% if logged_in? %>
+    <td><%= link_to 'Edit', edit_supplier_path(supplier) %></td>
+
+    <td><%= link_to 'Destroy', supplier, :confirm => 'Are you sure?', :method => :delete %></td>
+    <% end %>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New supplier', new_supplier_path %>

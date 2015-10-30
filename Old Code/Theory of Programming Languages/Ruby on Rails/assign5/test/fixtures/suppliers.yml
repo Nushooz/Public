@@ -1,0 +1,35 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 1
+  sname: "Smith"
+  status: 20
+  city: "London"
+  user_id: 1
+
+two:
+  id: 2
+  sname: "Jones"
+  status: 10
+  city: "Paris"
+  user_id: 2
+
+three:
+  id: 3
+  sname: "Blake"
+  status: 30
+  city: "Paris"
+  user_id: 3
+
+four:
+  id: 4
+  sname: "Clark"
+  status: 20
+  city: "London"
+  user_id: 4
+
+five:
+  id: 5
+  sname: "Adams"
+  status: 30
+  user_id: 5

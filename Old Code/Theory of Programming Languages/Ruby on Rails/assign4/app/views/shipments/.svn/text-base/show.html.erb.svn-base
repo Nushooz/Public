@@ -1,0 +1,27 @@
+<p>
+  <b>Supplier:</b>
+  <%=h @shipment.supplier_id %>
+</p>
+
+<p>
+  <b>Part:</b>
+  <%=h @shipment.part_id %>
+</p>
+
+<p>
+  <b>Qty:</b>
+  <%=h @shipment.qty %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%=h @shipment.price %>
+</p>
+
+<p>
+  <b>Date Shipped:</b>
+  <%=h @shipment.date_shipped %>
+</p>
+
+<%= link_to 'Edit', edit_shipment_path(@shipment) %> |
+<%= link_to 'Back', shipments_path %>

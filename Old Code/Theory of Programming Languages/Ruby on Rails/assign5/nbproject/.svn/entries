@@ -1,0 +1,55 @@
+8
+
+dir
+31
+svn://svn.cs.mtsu.edu/c1007100/svn/c1007112/assign5/nbproject
+svn://svn.cs.mtsu.edu/c1007100/svn/c1007112
+
+
+
+2009-04-16T22:39:16.648616Z
+19
+c1007112
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+75108b3f-2546-42ff-b6f9-81966dd2bc1e
+
+project.properties
+file
+
+
+
+
+2009-04-29T19:11:01.000000Z
+15734e59c26642f8f355eb24f3ec73a8
+2009-04-16T22:32:56.932679Z
+18
+csal
+
+project.xml
+file
+
+
+
+
+2009-04-29T19:11:01.000000Z
+9e853e21f0e4024d9bf98914c6f686c5
+2009-04-16T22:39:16.648616Z
+19
+c1007112
+
+private
+dir
+

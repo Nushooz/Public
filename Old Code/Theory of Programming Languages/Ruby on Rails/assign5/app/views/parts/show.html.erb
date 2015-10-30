@@ -1,0 +1,23 @@
+<p>
+  <b>Pname:</b>
+  <%=h @part.pname %>
+</p>
+
+<p>
+  <b>Color:</b>
+  <%=h @part.color %>
+</p>
+
+<p>
+  <b>Weight:</b>
+  <%=h @part.weight %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%=h @part.city %>
+</p>
+
+
+<%= link_to 'Edit', edit_part_path(@part) %> |
+<%= link_to 'Back', parts_path %>

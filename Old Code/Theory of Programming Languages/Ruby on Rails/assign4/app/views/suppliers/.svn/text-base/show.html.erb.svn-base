@@ -1,0 +1,18 @@
+<p>
+  <b>Sname:</b>
+  <%=h @supplier.sname %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%=h @supplier.status %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%=h @supplier.city %>
+</p>
+
+
+<%= link_to 'Edit', edit_supplier_path(@supplier) %> |
+<%= link_to 'Back', suppliers_path %>

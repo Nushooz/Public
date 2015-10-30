@@ -1,0 +1,32 @@
+<h1>Editing shipment</h1>
+
+<% form_for(@shipment) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :supplier_id %><br />
+    <%= f.text_field :supplier_id %>
+  </p>
+  <p>
+    <%= f.label :part_id %><br />
+    <%= f.text_field :part_id %>
+  </p>
+  <p>
+    <%= f.label :qty %><br />
+    <%= f.text_field :qty %>
+  </p>
+  <p>
+    <%= f.label :price %><br />
+    <%= f.text_field :price %>
+  </p>
+  <p>
+    <%= f.label :date_shipped %><br />
+    <%= f.text_field :date_shipped %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @shipment %> |
+<%= link_to 'Back', shipments_path %>

@@ -1,0 +1,43 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+
+one:
+  id: 1
+  pname: "Nut"
+  color: "Red"
+  weight: 12
+  city: "London"
+
+two:
+  id: 2
+  pname: "Bolt"
+  color: "Green"
+  weight: 17
+  city: "Paris"
+
+three:
+  id: 3
+  pname: "Screw"
+  weight: 17
+  city: "Rome"
+
+four:
+  id: 4
+  pname: "Screw"
+  color: "Red"
+  weight: 14
+  city: "London"
+
+five:
+  id: 5
+  pname: "Cam"
+  color: "Blue"
+  weight: 12
+  city: "Paris"
+
+six:
+  id: 6
+  pname: "Cog"
+  color: "Red"
+  weight: 19
+  city: "London"

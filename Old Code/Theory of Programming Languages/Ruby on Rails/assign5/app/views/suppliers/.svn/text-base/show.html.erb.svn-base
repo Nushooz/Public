@@ -1,0 +1,21 @@
+<p>
+  <b>Sname:</b>
+  <%=h @supplier.sname %>
+</p>
+
+<% if logged_in? %>
+  <p>
+    <b>Status:</b>
+    <%=h @supplier.status %>
+  </p>
+<%  end %>
+
+<p>
+  <b>City:</b>
+  <%=h @supplier.city %>
+</p>
+
+<% if logged_in? %>
+<%= link_to 'Edit', edit_supplier_path(@supplier) %> |
+<%  end %> 
+ <%= link_to 'Back', suppliers_path %>

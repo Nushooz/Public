@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  supplier_id: 1
+  part_id: 1
+  qty: 1
+  price: 
+
+two:
+  supplier_id: 1
+  part_id: 1
+  qty: 1
+  price: 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="person.xsd" status="Enrolled">
+	<name lang="EN">
+		<last>Blalock</last>
+        <middle>Cody</middle>
+		<first>Brandon</first>
+	</name>
+    <degree>BA</degree>
+    <class>FR</class>
+    <phone>6158981236</phone>
+</Person>
