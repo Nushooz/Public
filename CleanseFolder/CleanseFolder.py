@@ -6,6 +6,10 @@ from stat import S_ISDIR
 '''
 Created on January 22nd, 2018
 by Mark Kaiser
+
+This program takes in a directory and a list of file extensions as inputs. It then traverses
+the folder and all subfolders and deletes any file withing the list of file extenses provided
+as input.
 '''
 
 def inputFolder():
@@ -34,7 +38,7 @@ def validateFolder(folder):
 	try:
 		st = os.stat(fullpath)
 		mode = st.st_mode
-	except:
+	except FileNotFoundError:
 		print('That directory was not found!')
 		return False
 
@@ -64,6 +68,5 @@ def main():
 		fileExtensions = inputExtensions()
 		deleteFiles(folder, fileExtensions)
 		print("Done!")
-	#take in file extensions
 
 main()
