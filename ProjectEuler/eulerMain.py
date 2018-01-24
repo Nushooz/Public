@@ -1,8 +1,9 @@
 #!/usr/bin/python
 
 '''
-Created on Jul 24, 2014
+This program solves this first 5 problems on ProjectEuler.net
 
+Created on Jul 24, 2015
 @author: Mark Kaiser
 '''
 
