@@ -8,7 +8,7 @@ Created on January 22nd, 2018
 by Mark Kaiser
 
 This program takes in a directory and a list of file extensions as inputs. It then traverses
-the folder and all subfolders and deletes any file withing the list of file extenses provided
+the folder and all subfolders and deletes any file within the list of file extensions provided
 as input.
 '''
 
